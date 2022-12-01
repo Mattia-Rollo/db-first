@@ -1,0 +1,12 @@
+idAuto: MEDIUMINT - unique - primary_key - NOTNULL - AUTOINCREMENT
+modello: VARCHAR(50) - NOTNULL - 
+targa: VARCHAR(7) - NOTNULL - UNIQUE - 
+internal_code: MEDIUMINT - NOTNULL - UNIQUE
+km: INT - NULL - 
+grado delle gomme: VARCHAR(3) - NULL 	
+data ultima revisione:	DATE - NULL 
+data ultimo tagliando:	DATE - NULL
+anno immatricolazione:	DATE - NULL
+inquinamento: VARCHAR(10) - NULL
+ultimo proprietario: VARCHAR(15) - NOTNULL
+descrizione: TEXT - NULL 
