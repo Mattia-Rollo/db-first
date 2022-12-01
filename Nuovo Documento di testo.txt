@@ -6,7 +6,7 @@ km: INT - NULL -
 grado delle gomme: VARCHAR(3) - NULL 	
 data ultima revisione:	DATE - NULL 
 data ultimo tagliando:	DATE - NULL
-anno immatricolazione:	DATE - NULL
+anno immatricolazione:	DATE - NOTNULL
 inquinamento: VARCHAR(10) - NULL
 ultimo proprietario: VARCHAR(15) - NOTNULL
 descrizione: TEXT - NULL 
